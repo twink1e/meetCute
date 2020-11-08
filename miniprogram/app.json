@@ -12,7 +12,10 @@
     "pages/openapi/callback/callback",
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
-    "pages/im/room/room"
+    "pages/im/room/room",
+    "pages/profile/profile",
+    "pages/message/message",
+    "pages/discover/discover"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
@@ -22,5 +25,25 @@
     "navigationBarTextStyle": "black"
   },
   "sitemapLocation": "sitemap.json",
-  "style": "v2"
+  "style": "v2",
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/profile/profile",
+        "text": "自我介绍"
+      },
+      {
+        "pagePath": "pages/discover/discover",
+        "text": "发现"
+      },
+      {
+        "pagePath": "pages/message/message",
+        "text": "信息"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "云开发"
+      }
+    ]
+  }
 }
