@@ -1,1 +1,4 @@
 /* miniprogram/pages/profile/profile.wxss */
+.edit_image {
+  background-color:rgba(255, 255, 255, 0.5);
+}

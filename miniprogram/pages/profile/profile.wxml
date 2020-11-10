@@ -1,2 +1,6 @@
 <!--miniprogram/pages/profile/profile.wxml-->
-<text>miniprogram/pages/profile/profile.wxml</text>
+<text>sdfgfgfgdfgfd</text>
+<view class="overlap_container">
+<image style="width: 100%" mode="widthFix" src="{{profileSrc}}"></image>
+<button class="top_right edit_image" size="mini" bindtap="onUploadImage">edit</button>
+</view>
