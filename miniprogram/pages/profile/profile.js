@@ -7,7 +7,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    profileSrc: "../../images/code-cloud-callback-config.png"
+    profileSrc: "../../images/code-cloud-callback-config.png",
+    intro: "haha"
   },
 
   /**

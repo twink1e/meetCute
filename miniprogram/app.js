@@ -19,6 +19,10 @@ App({
       openid: null
     }
     this.onGetOpenid()
+    wx.setUserCloudStorage({
+      KVDataList: [{key: "1", value: "2"}]
+    })
+
   },
 
   onGetOpenid: function() {

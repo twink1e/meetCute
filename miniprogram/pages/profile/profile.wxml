@@ -4,3 +4,4 @@
 <image style="width: 100%" mode="widthFix" src="{{profileSrc}}"></image>
 <button class="top_right edit_image" size="mini" bindtap="onUploadImage">edit</button>
 </view>
+<textarea model:value="{{intro}}"></textarea>
